@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 const btnGrp = document.querySelector(".btn-group");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I'm SORRY";
+  question.innerHTML = "I'm suri yarr";
   gif.src = "images/sorry.png";
   gif.style.height = "300px"; 
 gif.style.width = "400px"; 
@@ -15,7 +15,7 @@ gif.style.width = "400px";
   yesBtn.innerHTML = "Accha thik hai";
 
   yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Hehehe!! I knew It";
+    question.innerHTML = "Hehehe!! tenku";
     gif.src = "images/love.gif";
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
@@ -28,7 +28,7 @@ gif.style.width = "400px";
     noBtn.innerHTML = "Nahi Sochna";
 
     yesBtn.addEventListener("click", () => {
-      question.innerHTML = "Hehehe, I knew it!";
+      question.innerHTML = "Hehehe, tenku";
       gif.src = "images/love.gif";
       yesBtn.style.display = "none";
       noBtn.style.display = "none";
@@ -41,20 +41,20 @@ gif.style.width = "400px";
       noBtn.innerHTML = "Final no";
 
       yesBtn.addEventListener("click", () => {
-        question.innerHTML = "Hehehe, I knew it!";
+        question.innerHTML = "Hehehe, tenku";
         gif.src = "images/love.gif";
         yesBtn.style.display = "none";
         noBtn.style.display = "none";
       });
 
       noBtn.addEventListener("click", () => {
-        question.innerHTML = "Manja nah! kitna bhav khayegaa";
+        question.innerHTML = "Maaf krdo pleez";
         gif.src = "images/run.gif";
         yesBtn.innerHTML = "No";
         noBtn.innerHTML = "Yes";
 
         noBtn.addEventListener("click", () => {
-          question.innerHTML = "Hehehe, I knew it!";
+          question.innerHTML = "Hehehe, tenku";
           gif.src = "images/love.gif";
           yesBtn.style.display = "none";
           noBtn.style.display = "none";
